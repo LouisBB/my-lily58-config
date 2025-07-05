@@ -1,0 +1,10 @@
+# This file generates the GitHub Actions matrix
+# For simple board + shield combinations, add them here.
+# See the documentation for more advanced use cases:
+# https://zmk.dev/docs/user-setup#build-matrix
+
+include:
+  - board: nice_nano_v2
+    shield: lily58_left
+  - board: nice_nano_v2
+    shield: lily58_right
